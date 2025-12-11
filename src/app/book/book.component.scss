@@ -1,0 +1,52 @@
+.fontSize {
+    font-size: 1.5rem;
+}
+
+.title {
+    font-size: 2rem;
+    color: rgb(253, 144, 35);
+    margin-block: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.tableData {
+    font-size: 1.2rem;
+}
+
+table {
+    margin-inline: 4rem;
+}
+
+.mat-mdc-table {
+    min-width: 90%;
+}
+
+.tableContainer {
+    border: 2px solid rgb(145, 202, 208);
+}
+
+.mat-mdc-header-row {
+    font-size: 1.5rem;
+    background-color: rgb(145, 202, 208) !important;
+    color: black;
+}
+
+.mat-mdc-row {
+    background-color: rgb(222, 242, 248);
+}
+
+.purchaseBttn {
+    font-size: 1rem;
+    background-color: rgb(104, 216, 216) !important;
+    color: white !important;
+    ;
+}
+
+th.mat-sort-header-sorted {
+    color: black;
+}
+
+.fontSizes {
+    font-size: 1.5rem !important;
+}
