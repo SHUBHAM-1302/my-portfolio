@@ -1,0 +1,19 @@
+<div class="game-container">
+  <h2>Snake Game 🐍</h2>
+
+  <canvas
+    #gameCanvas
+    width="400"
+    height="400"
+  ></canvas>
+
+  <div class="controls">
+    <button (click)="togglePause()">
+      {{ isPaused ? 'Resume ▶️' : 'Pause ⏸️' }}
+    </button>
+  </div>
+
+  <p class="hint">
+    Use ⬅️ ⬆️ ➡️ ⬇️ arrow keys to play
+  </p>
+</div>
